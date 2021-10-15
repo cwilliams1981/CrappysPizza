@@ -8,4 +8,8 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("I've Crashed!");
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("I've Passed the Finish Line!");
+    }
 }
